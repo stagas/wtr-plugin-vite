@@ -1,5 +1,5 @@
 <h1>
-wtr-plugin-vite <a href="https://npmjs.org/package/wtr-plugin-vite"><img src="https://img.shields.io/badge/npm-v0.0.1-F00.svg?colorA=000"/></a> <a href="src"><img src="https://img.shields.io/badge/loc-67-FFF.svg?colorA=000"/></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-F0B.svg?colorA=000"/></a>
+wtr-plugin-vite <a href="https://npmjs.org/package/wtr-plugin-vite"><img src="https://img.shields.io/badge/npm-v0.0.2-F00.svg?colorA=000"/></a> <a href="src"><img src="https://img.shields.io/badge/loc-67-FFF.svg?colorA=000"/></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-F0B.svg?colorA=000"/></a>
 </h1>
 
 <p></p>
@@ -37,6 +37,7 @@ module.exports = {
 
 ## Credits
 
+- [@babel/core](https://npmjs.org/package/@babel/core) by [The Babel Team](https://babel.dev/team) &ndash; Babel compiler core.
 - [@babel/plugin-transform-react-jsx](https://npmjs.org/package/@babel/plugin-transform-react-jsx) by [The Babel Team](https://babel.dev/team) &ndash; Turn JSX into React function calls
 - [@babel/plugin-transform-typescript](https://npmjs.org/package/@babel/plugin-transform-typescript) by [The Babel Team](https://babel.dev/team) &ndash; Transform TypeScript into ES.next
 - [@originjs/vite-plugin-commonjs](https://npmjs.org/package/@originjs/vite-plugin-commonjs) by [jiawulin](https://github.com/originjs) &ndash; A vite plugin that support commonjs to esm in vite
