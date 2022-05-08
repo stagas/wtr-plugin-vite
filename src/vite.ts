@@ -31,7 +31,7 @@ export const vite = (viteConfig: ViteConfig & { jsxImportSource?: string } = {})
               sourceMaps: true,
               plugins: [
                 [
-                  '@babel/plugin-transform-react-jsx',
+                  require('@babel/plugin-transform-react-jsx'),
                   {
                     throwIfNamespace: false,
                     runtime: 'automatic',
@@ -41,7 +41,7 @@ export const vite = (viteConfig: ViteConfig & { jsxImportSource?: string } = {})
                   },
                 ],
                 [
-                  '@babel/plugin-transform-typescript',
+                  require('@babel/plugin-transform-typescript'),
                   {
                     isTSX: true,
                     allExtensions: true,
