@@ -3,7 +3,7 @@
   "author": "stagas",
   "short": "stagas/wtr-plugin-vite",
   "description": "Vite plugin for WebTestRunner",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -64,7 +64,6 @@
   ],
   "devDependencies": {
     "@n1kk/intspector": "1.0.2",
-    "@rollup/plugin-commonjs": "21.0.3",
     "@stagas/jest-node-exports-resolver": "1.1.5-require-basedir-2",
     "@swc-node/jest": "1.4.3",
     "@swc/cli": "0.1.57",
@@ -76,7 +75,6 @@
     "@types/webmidi": "2.0.6",
     "@typescript-eslint/eslint-plugin": "5.18.0",
     "@typescript-eslint/parser": "5.18.0",
-    "@web/dev-server-rollup": "0.3.15",
     "@web/test-runner": "0.13.27",
     "bunzee": "^0.0.1",
     "chokidar": "3.5.3",
@@ -84,7 +82,7 @@
     "eslint": "8.13.0",
     "eslint-config-html-jsx": "1.0.0",
     "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react": "7.27.1",
     "husky": "7.0.4",
     "jest": "27.5.1",
     "jest-browser-globals": "25.1.0-beta",
@@ -96,8 +94,7 @@
     "ts-node": "10.7.0",
     "typescript": "4.6.3",
     "vite-open": "^1.6.2",
-    "vite-web-test-runner-plugin": "0.1.0",
-    "wtr-plugin-vite": "^0.0.1"
+    "wtr-plugin-vite": "^0.0.2"
   },
   "dependencies": {
     "@babel/core": "7.17.9",
